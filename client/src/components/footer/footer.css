@@ -1,0 +1,90 @@
+.footer {
+  display: flex;
+  background-color: #313131;
+  margin-top: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.footerLeft {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTitle {
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.footerImg {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.footerCenter {
+  flex: 4;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.footerTarget {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+
+.footerCenter > p {
+  margin-top: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footerCenter > span {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.footerRight {
+  flex: 5;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerSpan {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+
+.footerInput {
+  margin: 30px 10px;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  -webkit-box-shadow: 5px 5px 8px 5px #000000;
+  box-shadow: 5px 5px 8px 5px #000000;
+}
+
+.footerInput:focus {
+  outline: none;
+}
+
+.btnText {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  -webkit-box-shadow: 2px 7px 10px 2px #000000;
+  box-shadow: 2px 7px 10px 2px #000000;
+}

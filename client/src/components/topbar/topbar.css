@@ -1,0 +1,102 @@
+.topbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999;
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.topLeftIcons {
+  margin-right: 20px;
+  color: #444;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topbarImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-style: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 30px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+  /* border: 1px solid white;
+  background-color: #00ffcf;
+  border-radius: 10px; */
+}
+
+.input-text {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  background: none;
+  border: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  font-size: 20px;
+  line-height: 40px;
+  width: 0px;
+  transition: all 0.9s;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.search-box:hover input {
+  width: 240px;
+  padding: 0 6px;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.search-box input:focus {
+  width: 240px;
+  padding: 0 6px;
+  outline: none;
+}
